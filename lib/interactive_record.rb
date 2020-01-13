@@ -25,4 +25,5 @@ class InteractiveRecord
       self.send("#{property}=", value)
     end
   end
+
 end
