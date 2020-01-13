@@ -4,8 +4,9 @@ require 'interactive_record.rb'
 
 class Student < InteractiveRecord
   attr_accessor :name, :grade
+  attr_reader :id
 
-  def initialize(name, grade)
+  def initialize(id: nil, name:, grade:)
     @name = name
     @grade = grade
   end
