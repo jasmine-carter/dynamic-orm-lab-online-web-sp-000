@@ -3,7 +3,7 @@ require 'active_support/inflector'
 require 'interactive_record.rb'
 
 class Student < InteractiveRecord
-  attr_accessor :name, :grade
+  attr_accessor :name, :grade, :id
   attr_reader :id
 
 end
